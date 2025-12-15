@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1100" role="img" aria-label="Stylized equirectangular world map">
+  <defs>
+    <linearGradient id="ocean" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="50%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="land" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="2000" height="1100" fill="url(#ocean)"/>
+  <g fill="url(#land)" stroke="#94a3b8" stroke-width="6" stroke-linejoin="round" filter="url(#shadow)">
+    <path d="M230 250 L420 210 L540 260 L610 330 L610 410 L520 450 L400 430 L300 360 L230 320 Z"/>
+    <path d="M540 440 L620 420 L700 470 L760 520 L750 600 L660 640 L560 600 L520 520 Z"/>
+    <path d="M760 260 L880 210 L1020 210 L1130 250 L1160 320 L1100 360 L980 370 L860 330 Z"/>
+    <path d="M1160 330 L1320 340 L1380 420 L1360 520 L1240 550 L1140 500 L1120 410 Z"/>
+    <path d="M1370 260 L1520 240 L1640 270 L1740 330 L1760 410 L1680 470 L1540 480 L1410 430 L1360 330 Z"/>
+    <path d="M1540 520 L1700 540 L1760 600 L1740 660 L1640 700 L1500 680 L1480 600 Z"/>
+    <path d="M340 760 L420 730 L520 760 L580 820 L520 880 L420 900 L340 850 Z"/>
+    <path d="M1380 820 L1460 780 L1540 800 L1580 860 L1500 900 L1400 880 Z"/>
+  </g>
+  <g stroke="#bae6fd" stroke-width="2.5" opacity="0.35">
+    <line x1="0" y1="183.3" x2="2000" y2="183.3"/>
+    <line x1="0" y1="366.6" x2="2000" y2="366.6"/>
+    <line x1="0" y1="549.9" x2="2000" y2="549.9"/>
+    <line x1="0" y1="733.2" x2="2000" y2="733.2"/>
+    <line x1="0" y1="916.5" x2="2000" y2="916.5"/>
+    <line x1="285.7" y1="0" x2="285.7" y2="1100"/>
+    <line x1="571.4" y1="0" x2="571.4" y2="1100"/>
+    <line x1="857.1" y1="0" x2="857.1" y2="1100"/>
+    <line x1="1142.8" y1="0" x2="1142.8" y2="1100"/>
+    <line x1="1428.5" y1="0" x2="1428.5" y2="1100"/>
+    <line x1="1714.2" y1="0" x2="1714.2" y2="1100"/>
+  </g>
+</svg>
+

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="Simplified world map">
+    <defs>
+        <linearGradient id="water" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#dbeafe" />
+            <stop offset="100%" stop-color="#bfdbfe" />
+        </linearGradient>
+        <linearGradient id="land" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#e5e7eb" />
+            <stop offset="100%" stop-color="#e0f2fe" />
+        </linearGradient>
+    </defs>
+    <rect width="1200" height="700" fill="url(#water)" />
+    <g fill="url(#land)" stroke="#cbd5e1" stroke-width="4" stroke-linejoin="round">
+        <path d="M150 170 L330 160 L380 220 L350 280 L260 320 L170 290 L120 210 Z" />
+        <path d="M290 360 L360 410 L390 520 L340 610 L270 540 L280 430 Z" />
+        <path d="M510 150 L640 150 L690 220 L650 260 L560 280 L500 240 Z" />
+        <path d="M540 270 L670 290 L720 380 L680 520 L580 500 L540 380 Z" />
+        <path d="M680 170 L920 210 L1000 320 L920 400 L690 450 L640 320 Z" />
+        <path d="M870 430 L990 460 L1030 530 L940 570 L820 530 L840 460 Z" />
+    </g>
+    <g stroke="#93c5fd" stroke-width="2" opacity="0.35">
+        <line x1="0" y1="140" x2="1200" y2="140" />
+        <line x1="0" y1="280" x2="1200" y2="280" />
+        <line x1="0" y1="420" x2="1200" y2="420" />
+        <line x1="0" y1="560" x2="1200" y2="560" />
+        <line x1="200" y1="0" x2="200" y2="700" />
+        <line x1="400" y1="0" x2="400" y2="700" />
+        <line x1="600" y1="0" x2="600" y2="700" />
+        <line x1="800" y1="0" x2="800" y2="700" />
+        <line x1="1000" y1="0" x2="1000" y2="700" />
+    </g>
+</svg>
+
